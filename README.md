@@ -31,3 +31,31 @@ For your homework:
 	9. Other interesting things
 Answer the question, "What is the difference between **Github Flavored MArkdown** (GFM) and regular markdown?"
 Find out how to do a checkbox in a list item using GFM.
+
+## Code Blocks
+
+You can do code block in Markdown, and even have it highlighted in the right colors for the appropriate kind of code. Eg. here's some HTML.
+
+```html
+<h1> Hello World </h1>
+<p> YOu should really get into learning about CSS Grid and Flexbox!</p>
+```
+
+Here is an example of C# code
+```csharp
+public class Greeter
+{
+	private string _Greeting = "Hello World";
+	private string _GoodBye;
+	
+	public Greeter(string greeting, string goodbye)
+	{
+		_Greeting = greeting;
+		_GoodBye = goodbye;
+	}
+	
+	public string SayHello()
+	{
+		return _Greeting;
+	}
+}
